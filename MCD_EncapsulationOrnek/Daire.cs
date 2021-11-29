@@ -42,7 +42,24 @@ namespace MCD_EncapsulationOrnek
         }
         #endregion
 
+        #region Metotlar
 
-       
+        public void AlanHesapla()
+        {//pi r kare
+
+            double sonuc = PiSayisi * Math.Pow(YariCap, 2);
+            Console.WriteLine("Alan=" +sonuc.ToString("0.00"));
+        }
+
+        public void CevreHesapla()
+        {
+            //2 pi r
+            double sonuc = 2 * PiSayisi * YariCap;
+            Console.WriteLine("Çevre= " +sonuc.ToString("0.00");
+        }
+
+
+        #endregion
+
     }
 }
