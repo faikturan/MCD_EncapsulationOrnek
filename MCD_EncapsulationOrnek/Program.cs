@@ -16,6 +16,14 @@ namespace MCD_EncapsulationOrnek
              * Pi sayı değerini dışardan gönderiniz.
              * Bu dairenin çevresini ve alanını hesaplayınız.
              */
+
+            Daire daire1 = new Daire(4);
+            daire1.YariCap = 5;
+            Console.WriteLine("Çap: " +daire1.Cap.ToString());
+            daire1.AlanHesapla();
+            Console.WriteLine();
+            daire1.CevreHesapla();
+            Console.ReadKey();
         }
     }
 }

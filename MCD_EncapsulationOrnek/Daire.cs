@@ -55,7 +55,7 @@ namespace MCD_EncapsulationOrnek
         {
             //2 pi r
             double sonuc = 2 * PiSayisi * YariCap;
-            Console.WriteLine("Çevre= " +sonuc.ToString("0.00");
+            Console.WriteLine("Çevre= " +sonuc.ToString("0.00"));
         }
 
 
